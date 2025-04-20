@@ -1,0 +1,628 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "userId": "u102",
+      "userName": "ar_ajithkumar_only",
+      "profilePic": "http://localhost:3000/assets/profile12.jpg",
+      "image": "http://localhost:3000/assets/img12.jpg",
+      "caption": "திரையரங்கம் செதரட்டும் 🔥🔥",
+      "likes": 205,
+      "comments": [
+        {
+          "userName": "naturelover",
+          "comment": "What a view! ❤️"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": "u101",
+      "userName": "news7tamil",
+      "profilePic": "http://localhost:3000/assets/profile11.jpg",
+      "image": "http://localhost:3000/assets/img11.jpg",
+      "caption": "news7tamil  ஃப்ரேம் பாருங்க ஜி...! 🔥",
+      "likes": 7776,
+      "comments": [
+        {
+          "userName": "naturelover",
+          "comment": "What a view! ❤️"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "userId": "u103",
+      "userName": "tech_guy",
+      "profilePic": "http://localhost:3000/assets/profile13.jpg",
+      "image": "http://localhost:3000/assets/img13.jpg",
+      "caption": "Unexpected Crossover 🤯💥🧨🔥",
+      "likes": 98,
+      "comments": []
+    },
+    {
+      "id": "4",
+      "userId": "u104",
+      "userName": "SyedJaleel850",
+      "profilePic": "http://localhost:3000/assets/profile picture-modified.png",
+      "image": "http://localhost:3000/assets/img14.png",
+      "caption": "On the beach, the silence speaks louder than the waves 🌊✨",
+      "likes": 156,
+      "comments": [
+        {
+          "userName": "artlover",
+          "comment": "So beautiful 😍"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "userId": "u105",
+      "userName": "mike_travels",
+      "profilePic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "image": "http://localhost:3000/assets/img15.jpg",
+      "caption": "Exploring new places ✈️🌍",
+      "likes": 245,
+      "comments": [
+        {
+          "userName": "wanderlust",
+          "comment": "Bucket list goals 😍"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "userId": "u106",
+      "userName": "umaarajendra",
+      "profilePic": "https://randomuser.me/api/portraits/women/6.jpg",
+      "image": "http://localhost:3000/assets/img16.png",
+      "caption": "Motha Malaysia-vum avarodadhu thaan da 🥵🥵🥵",
+      "likes": 189,
+      "comments": [
+        {
+          "userName": "fitlife",
+          "comment": "Beast mode 🔥"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "userId": "u107",
+      "userName": "web_talks",
+      "profilePic": "http://localhost:3000/assets/profile13.jpg",
+      "image": "http://localhost:3000/assets/img17.png",
+      "caption": "✅ Step by step approach to become full Stack web developer.",
+      "likes": 132,
+      "comments": [
+        {
+          "userName": "soundwave",
+          "comment": "Can't wait! 🔥"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "userId": "u108",
+      "userName": "warrenbuffettsofficial",
+      "profilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+      "image": "http://localhost:3000/assets/img21.png",
+      "caption": "How To Track Your Finances. Like our Content?⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣",
+      "likes": 222,
+      "comments": [
+        {
+          "userName": "sweettooth",
+          "comment": "Send me some! 🤤"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "userId": "u109",
+      "userName": "alex_thegamer",
+      "profilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+      "image": "http://localhost:3000/assets/img20.jpg",
+      "caption": "Agree? 💯",
+      "likes": 174,
+      "comments": [
+        {
+          "userName": "proplayer",
+          "comment": "Let's gooo 💯"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "userId": "u110",
+      "userName": "msdian_ajju7781",
+      "profilePic": "http://localhost:3000/assets/profile22.jpg",
+      "image": "http://localhost:3000/assets/img22.jpg",
+      "caption": "𝐅𝐎𝐑𝐄𝐕𝐄𝐑 𝐌𝐒 𝐃𝐇𝐎𝐍𝐈 💛",
+      "likes": 310,
+      "comments": [
+        {
+          "userName": "fashionqueen",
+          "comment": "Love this fit! 😍🔥"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "userId": "u107",
+      "userName": "inspiring.poet and poetsandquotes_",
+      "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "image": "http://localhost:3000/assets/img18.jpg",
+      "caption": "Which one do you relate the most in 1-7? 🫂♥️",
+      "likes": 132,
+      "comments": [
+        {
+          "userName": "soundwave",
+          "comment": "Can't wait! 🔥"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "userId": "u102",
+      "userName": "sportsinfocrickethub",
+      "profilePic": "http://localhost:3000/assets/profile23.jpg",
+      "image": "http://localhost:3000/assets/img23.jpg",
+      "caption": "Someone is back!",
+      "likes": 201,
+      "comments": [
+        {
+          "userName": "naturelover",
+          "comment": "What a view! ❤️"
+        }
+      ]
+    }
+  ],
+  "Profile": [
+    {
+      "id": "5",
+      "userName": "Syed Jaleel 850",
+      "profilePic": "http://localhost:3000/assets/profile picture-modified.png"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "userId": "u101",
+      "userName": "john_doe",
+      "profilePic": "/data/assets/profile1.jpg",
+      "image": "http://localhost:3000/assets/img1.jpg"
+    },
+    {
+      "id": "2",
+      "userId": "u102",
+      "userName": "sarah_rocks",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "image": "http://localhost:3000/assets/img2.jpg",
+      "caption": "Mountains calling 🏔️⛺",
+      "likes": 201,
+      "comments": [
+        {
+          "userName": "naturelover",
+          "comment": "What a view! ❤️"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "userId": "u103",
+      "userName": "tech_guy",
+      "profilePic": "https://randomuser.me/api/portraits/men/3.jpg",
+      "image": "http://localhost:3000/assets/img3.jpg",
+      "caption": "Coding and coffee ☕💻",
+      "likes": 98,
+      "comments": []
+    },
+    {
+      "id": "4",
+      "userId": "u104",
+      "userName": "emma.art",
+      "profilePic": "https://randomuser.me/api/portraits/women/4.jpg",
+      "image": "http://localhost:3000/assets/img4.jpg",
+      "caption": "Art is life 🎨🖌️",
+      "likes": 156,
+      "comments": [
+        {
+          "userName": "artlover",
+          "comment": "So beautiful 😍"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "userId": "u105",
+      "userName": "mike_travels",
+      "profilePic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "image": "http://localhost:3000/assets/img5.jpg",
+      "caption": "Exploring new places ✈️🌍",
+      "likes": 245,
+      "comments": [
+        {
+          "userName": "wanderlust",
+          "comment": "Bucket list goals 😍"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "userId": "u106",
+      "userName": "laura_fit",
+      "profilePic": "https://randomuser.me/api/portraits/women/6.jpg",
+      "image": "http://localhost:3000/assets/img6.jpg",
+      "caption": "No pain, no gain 💪🏽",
+      "likes": 189,
+      "comments": [
+        {
+          "userName": "fitlife",
+          "comment": "Beast mode 🔥"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "userId": "u107",
+      "userName": "kevin_music",
+      "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "image": "http://localhost:3000/assets/img7.jpg",
+      "caption": "New track coming soon 🎧🎶",
+      "likes": 132,
+      "comments": [
+        {
+          "userName": "soundwave",
+          "comment": "Can't wait! 🔥"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "userId": "u108",
+      "userName": "daisy_bakes",
+      "profilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+      "image": "http://localhost:3000/assets/img8.jpg",
+      "caption": "Freshly baked cookies 🍪😋",
+      "likes": 222,
+      "comments": [
+        {
+          "userName": "sweettooth",
+          "comment": "Send me some! 🤤"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "userId": "u109",
+      "userName": "alex_thegamer",
+      "profilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+      "image": "http://localhost:3000/assets/img9.jpg",
+      "caption": "Gaming marathon begins 🎮🔥",
+      "likes": 174,
+      "comments": [
+        {
+          "userName": "proplayer",
+          "comment": "Let's gooo 💯"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "userId": "u110",
+      "userName": "zoe_style",
+      "profilePic": "https://randomuser.me/api/portraits/women/10.jpg",
+      "image": "http://localhost:3000/assets/img10.jpg",
+      "caption": "OOTD vibes 💃👗",
+      "likes": 310,
+      "comments": [
+        {
+          "userName": "fashionqueen",
+          "comment": "Love this fit! 😍🔥"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "userId": "u107",
+      "userName": "kevin_music",
+      "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "image": "http://localhost:3000/assets/img7.jpg",
+      "caption": "New track coming soon 🎧🎶",
+      "likes": 132,
+      "comments": [
+        {
+          "userName": "soundwave",
+          "comment": "Can't wait! 🔥"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "userId": "u102",
+      "userName": "sarah_rocks",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "image": "http://localhost:3000/assets/img2.jpg",
+      "caption": "Mountains calling 🏔️⛺",
+      "likes": 201,
+      "comments": [
+        {
+          "userName": "naturelover",
+          "comment": "What a view! ❤️"
+        }
+      ]
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "userId": "u101",
+      "userName": "john_doe",
+      "profilePic": "/data/assets/profile1.jpg",
+      "image": "http://localhost:3000/assets/img1.jpg"
+    },
+    {
+      "id": "2",
+      "userId": "u102",
+      "userName": "sarah_rocks",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "image": "http://localhost:3000/assets/img2.jpg",
+      "caption": "Mountains calling 🏔️⛺",
+      "likes": 201,
+      "comments": [
+        {
+          "userName": "naturelover",
+          "comment": "What a view! ❤️"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "userId": "u103",
+      "userName": "tech_guy",
+      "profilePic": "https://randomuser.me/api/portraits/men/3.jpg",
+      "image": "http://localhost:3000/assets/img3.jpg",
+      "caption": "Coding and coffee ☕💻",
+      "likes": 98,
+      "comments": []
+    },
+    {
+      "id": "4",
+      "userId": "u104",
+      "userName": "emma.art",
+      "profilePic": "https://randomuser.me/api/portraits/women/4.jpg",
+      "image": "http://localhost:3000/assets/img4.jpg",
+      "caption": "Art is life 🎨🖌️",
+      "likes": 156,
+      "comments": [
+        {
+          "userName": "artlover",
+          "comment": "So beautiful 😍"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "userId": "u105",
+      "userName": "mike_travels",
+      "profilePic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "image": "http://localhost:3000/assets/img5.jpg",
+      "caption": "Exploring new places ✈️🌍",
+      "likes": 245,
+      "comments": [
+        {
+          "userName": "wanderlust",
+          "comment": "Bucket list goals 😍"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "userId": "u106",
+      "userName": "laura_fit",
+      "profilePic": "https://randomuser.me/api/portraits/women/6.jpg",
+      "image": "http://localhost:3000/assets/img6.jpg",
+      "caption": "No pain, no gain 💪🏽",
+      "likes": 189,
+      "comments": [
+        {
+          "userName": "fitlife",
+          "comment": "Beast mode 🔥"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "userId": "u107",
+      "userName": "kevin_music",
+      "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "image": "http://localhost:3000/assets/img7.jpg",
+      "caption": "New track coming soon 🎧🎶",
+      "likes": 132,
+      "comments": [
+        {
+          "userName": "soundwave",
+          "comment": "Can't wait! 🔥"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "userId": "u108",
+      "userName": "daisy_bakes",
+      "profilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+      "image": "http://localhost:3000/assets/img8.jpg",
+      "caption": "Freshly baked cookies 🍪😋",
+      "likes": 222,
+      "comments": [
+        {
+          "userName": "sweettooth",
+          "comment": "Send me some! 🤤"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "userId": "u109",
+      "userName": "alex_thegamer",
+      "profilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+      "image": "http://localhost:3000/assets/img9.jpg",
+      "caption": "Gaming marathon begins 🎮🔥",
+      "likes": 174,
+      "comments": [
+        {
+          "userName": "proplayer",
+          "comment": "Let's gooo 💯"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "userId": "u110",
+      "userName": "zoe_style",
+      "profilePic": "https://randomuser.me/api/portraits/women/10.jpg",
+      "image": "http://localhost:3000/assets/img10.jpg",
+      "caption": "OOTD vibes 💃👗",
+      "likes": 310,
+      "comments": [
+        {
+          "userName": "fashionqueen",
+          "comment": "Love this fit! 😍🔥"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "userId": "u107",
+      "userName": "kevin_music",
+      "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "image": "http://localhost:3000/assets/img7.jpg",
+      "caption": "New track coming soon 🎧🎶",
+      "likes": 132,
+      "comments": [
+        {
+          "userName": "soundwave",
+          "comment": "Can't wait! 🔥"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": "u102",
+      "userName": "sarah_rocks",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "image": "http://localhost:3000/assets/img2.jpg",
+      "caption": "Mountains calling 🏔️⛺",
+      "likes": 201,
+      "comments": [
+        {
+          "userName": "naturelover",
+          "comment": "What a view! ❤️"
+        }
+      ]
+    }
+  ],
+  "followers": [
+    {
+      "id": "11",
+      "userId": "u111",
+      "userName": "leo_photography",
+      "profilePic": "https://randomuser.me/api/portraits/men/11.jpg",
+      "image": "http://localhost:3000/assets/img11.jpg",
+      "caption": "Captured the perfect sunset 🌇📸",
+      "likes": 210,
+      "comments": [
+        {
+          "userName": "sunsetlover",
+          "comment": "Wow, this is breathtaking!"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "userId": "u113",
+      "userName": "mark_adventure",
+      "profilePic": "https://randomuser.me/api/portraits/men/13.jpg",
+      "image": "http://localhost:3000/assets/img13.jpg",
+      "caption": "Jungle trekking adventures 🌴🦎",
+      "likes": 266,
+      "comments": [
+        {
+          "userName": "explorer",
+          "comment": "Looks so fun!"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "userId": "u114",
+      "userName": "sophia_dance",
+      "profilePic": "https://randomuser.me/api/portraits/women/14.jpg",
+      "image": "http://localhost:3000/assets/img14.jpg",
+      "caption": "Dancing through life 💃🎶",
+      "likes": 324,
+      "comments": [
+        {
+          "userName": "dancequeen",
+          "comment": "You nailed it 🔥"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "userId": "u115",
+      "userName": "daniel_cook",
+      "profilePic": "https://randomuser.me/api/portraits/men/15.jpg",
+      "image": "http://localhost:3000/assets/img15.jpg",
+      "caption": "Masterchef vibes 👨‍🍳🍝",
+      "likes": 298,
+      "comments": [
+        {
+          "userName": "foodie",
+          "comment": "Recipe please!! 🍴😋"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "profilePic": "https://randomuser.me/api/portraits/men/24.jpg",
+      "userName": "travel_diaries"
+    }
+  ],
+  "Suggestions": [
+    {
+      "id": "21",
+      "userId": "u211",
+      "userName": "nature_explorer",
+      "profilePic": "https://randomuser.me/api/portraits/women/21.jpg",
+      "bio": "Discovering the beauty of nature 🌿📷"
+    },
+    {
+      "id": "22",
+      "userId": "u212",
+      "userName": "tech_guru",
+      "profilePic": "https://randomuser.me/api/portraits/men/22.jpg",
+      "bio": "Tech reviews and gadget unboxings 📱💻"
+    },
+    {
+      "id": "23",
+      "userId": "u213",
+      "userName": "fitness_freak",
+      "profilePic": "https://randomuser.me/api/portraits/women/23.jpg",
+      "bio": "Building strength, one rep at a time 🏋️‍♂️💪"
+    },
+    {
+      "id": "24",
+      "userId": "u214",
+      "userName": "travel_diaries",
+      "profilePic": "https://randomuser.me/api/portraits/men/24.jpg",
+      "bio": "Around the world in 80 trips ✈️🌍"
+    },
+    {
+      "id": "25",
+      "userId": "u215",
+      "userName": "artistic_soul",
+      "profilePic": "https://randomuser.me/api/portraits/women/25.jpg",
+      "bio": "Painting my imagination 🎨✨"
+    }
+  ]
+}
