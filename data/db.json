@@ -586,6 +586,11 @@
       "id": "24",
       "profilePic": "https://randomuser.me/api/portraits/men/24.jpg",
       "userName": "travel_diaries"
+    },
+    {
+      "id": "21",
+      "profilePic": "https://randomuser.me/api/portraits/women/21.jpg",
+      "userName": "nature_explorer"
     }
   ],
   "Suggestions": [
