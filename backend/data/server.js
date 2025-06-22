@@ -1,0 +1,21 @@
+const jsonServer = require('json-server');
+const express = require('express');
+const path = require('path');
+
+const server = express();
+const router = jsonServer.router(path.join(__dirname, 'data/db.json'));
+const middlewares = jsonServer.defaults();
+
+server.use(middlewares);
+
+// 👇 Serve static assets (images, etc.) from "backend/data/assets"
+server.use('/assets', express.static(path.join(__dirname, 'data/assets')));
+
+// 👇 JSON Server routes
+server.use('/api', router);
+
+// Start the server
+const PORT = process.env.PORT || 10000;
+server.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+});
