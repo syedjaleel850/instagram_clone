@@ -4,7 +4,7 @@ import axios from 'axios'
 function Feed() {
     const [posts,setPosts]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:3000/posts")
+        fetch("https://instagram-clone-backend-igda.onrender.com/api/posts")
         .then((data)=>{
             return data.json()
         }).then(data=>setPosts(data)).catch(err=>console.log(err))
@@ -19,7 +19,7 @@ function Feed() {
                 return;
             }
 
-            const response = await axios.put(`http://localhost:3000/posts/${id}`, {
+            const response = await axios.put(`https://instagram-clone-backend-igda.onrender.com/api/posts/${id}`, {
                 ...postToUpdate,
                 likes: updatedlike
             });

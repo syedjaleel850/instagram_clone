@@ -5,7 +5,7 @@ function Stories() {
   const [stories, setstories] = useState([])
   const navigate=useNavigate();
   useEffect(() => {
-    fetch("http://localhost:3000/stories")
+    fetch("https://instagram-clone-backend-igda.onrender.com/api/stories")
       .then((data) => data.json())
       .then(stories => setstories(stories))
       .catch(err => console.log(err))

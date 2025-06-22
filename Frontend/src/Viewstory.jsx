@@ -9,7 +9,7 @@ function Viewstory() {
   const [story, setStory] = useState(null);
   const navigate = useNavigate();
   useEffect(() => {
-    fetch(`http://localhost:3000/story/${id}`)
+    fetch(`https://instagram-clone-backend-igda.onrender.com/api/story/${id}`)
       .then((data) => data.json())
       .then((story) => setStory(story))
       .catch((err) => {
@@ -37,7 +37,7 @@ function Viewstory() {
       >
       
         <img
-          src="http://localhost:3000/assets/Instagramlogo.png"
+          src="https://instagram-clone-backend-igda.onrender.com/api/assets/Instagramlogo.png"
           alt=""
           width="120px"
         />

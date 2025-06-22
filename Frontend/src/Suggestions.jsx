@@ -7,20 +7,20 @@ function Suggestions() {
     const [suggestion,setSuggestion]=useState([])
     const[follow,setFollow]=useState(true)
     useEffect(()=>{
-        fetch("http://localhost:3000/Profile")
+        fetch("https://instagram-clone-backend-igda.onrender.com/api/Profile")
         .then((data)=>{return data.json()})
         .then(profile1=>setProfile(profile1))
         .catch(err=> console.log(err))
     },[])
     useEffect(()=>{
-        fetch("http://localhost:3000/Suggestions")
+        fetch("https://instagram-clone-backend-igda.onrender.com/api/Suggestions")
         .then((data)=>{return data.json()})
         .then(suggestions=>setSuggestion(suggestions))
         .catch(err=> console.log(err))
     },[])
    const handlesuggestion= async(id,profilePic,userName)=>{
     console.log(id,profilePic,userName)
-    await axios.post("http://localhost:3000/followers",{id:id,
+    await axios.post("https://instagram-clone-backend-igda.onrender.com/api/followers",{id:id,
         profilePic:profilePic,
         userName:userName
     })
@@ -33,7 +33,7 @@ function Suggestions() {
         setTimeout(()=>{
             setSuggestion(prev=>prev.filter(s=>s.id!==id));
        },2000)
-    await axios.delete("http://localhost:3000/Suggestions",{id:id,
+    await axios.delete("https://instagram-clone-backend-igda.onrender.com/api/Suggestions",{id:id,
         profilePic:profilePic,
         userName:userName
     })

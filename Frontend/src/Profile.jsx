@@ -8,10 +8,10 @@ function Profile() {
   const [followers, setFollowers] = useState([]);
 
   useEffect(() => {
-    axios("http://localhost:3000/Profile")
+    axios("https://instagram-clone-backend-igda.onrender.com/api/Profile")
       .then((data) => setProfile(data.data[0]))
       .catch((err) => console.log(err));
-    axios("http://localhost:3000/followers")
+    axios("https://instagram-clone-backend-igda.onrender.com/api/followers")
       .then((data) => setFollowers(data.data)
       )
       .catch((err) => console.log(err));
@@ -25,21 +25,21 @@ function Profile() {
   }
   const handleUpdate = async () => {
     await axios
-      .put(`http://localhost:3000/Profile/${profile.id}`, profile)
+      .put(`https://instagram-clone-backend-igda.onrender.com/api/Profile/${profile.id}`, profile)
       .then(console.log("updated"))
       .catch((err) => console.log(err));
   };
 
   const refreshFollowers = async () => {
     try {
-      const response = await axios("http://localhost:3000/followers");
+      const response = await axios("https://instagram-clone-backend-igda.onrender.com/api/followers");
       setFollowers(response.data);
     } catch (err) {
       console.error('Error refreshing followers:', err);
     }
   };
 const handleremove=async(id)=>{
-  await axios.delete(`http://localhost:3000/followers/${id}`)
+  await axios.delete(`https://instagram-clone-backend-igda.onrender.com/api/followers/${id}`)
   .then(()=>refreshFollowers())
 }
 
