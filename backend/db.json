@@ -188,7 +188,7 @@
       "id": "1",
       "userId": "u101",
       "userName": "john_doe",
-      "profilePic": "/data/assets/profile1.jpg",
+      "profilePic": "https://instagram-clone-backend-igda.onrender.com/assets/profile1.jpg",
       "image": "https://instagram-clone-backend-igda.onrender.com/assets/img1.jpg"
     },
     {
@@ -357,7 +357,7 @@
       "id": "1",
       "userId": "u101",
       "userName": "john_doe",
-      "profilePic": "/data/assets/profile1.jpg",
+      "profilePic": "https://instagram-clone-backend-igda.onrender.com/assets/profile1.jpg",
       "image": "https://instagram-clone-backend-igda.onrender.com/assets/img1.jpg"
     },
     {
