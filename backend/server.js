@@ -3,13 +3,13 @@ const express = require('express');
 const path = require('path');
 
 const server = express();
-const router = jsonServer.router(path.join(__dirname, 'data/db.json'));
+const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
 // 👇 Serve static assets (images, etc.) from "backend/data/assets"
-server.use('/assets', express.static(path.join(__dirname, 'data/assets')));
+server.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // 👇 JSON Server routes
 server.use('/api', router);
