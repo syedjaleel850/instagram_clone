@@ -1,15 +1,13 @@
 const jsonServer = require('json-server');
 const express = require('express');
 const path = require('path');
+const cors = require('cors');
+
 
 const server = express();
-const cors = require('cors');
-server.use(cors({
-  origin: [
-    'http://localhost:5173', // local dev
-    'https://instagram-clone-backend-igda.onrender.com' // your backend Render URL if you want to test directly
-  ]
-}));
+server.use(cors());
+server.options('*', cors());
+
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults();
 
