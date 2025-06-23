@@ -8,7 +8,7 @@ function Sidebar() {
   return (
     <div className="position-fixed justify-items-center" >
     <div className="d-flex  m-3 flex-column gap-3">
-    <img src="https://instagram-clone-backend-igda.onrender.com/api/assets/Instagramlogo.png" alt="" width="120px" />
+    <img src="https://instagram-clone-backend-igda.onrender.com/assets/Instagramlogo.png" alt="" width="120px" />
     </div>
 
       <div className=" logo m-3 d-flex flex-column gap-3 mt-4 ">
